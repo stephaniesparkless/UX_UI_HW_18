@@ -1,0 +1,79 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.firstGrpDivs {
+    width: 33%;
+    border-style: solid;
+    padding: 50px;
+    margin: 100px;
+    text-align: center;
+}
+
+h1, h3 {
+    display:flex;
+    justify-content: center;
+}
+.workGrid {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.secondGrpDivs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 35%;
+    margin-bottom: 70px;
+}
+
+
+.description {
+    width: 65%;
+    margin-right: 100px;
+    background-color: rgb(211, 211, 211);
+    padding: 50px;
+    margin-bottom: 70px;
+
+}
+
+
+@media screen and (max-width:600px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        padding: 0px;
+    }
+
+    .firstGrpDivs {
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        justify-content: center;
+    }
+    .secondGrpDivs{
+        display: flex;
+        align-content: center; 
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    
+    .description {
+        width: 100%;
+        margin: 0px;
+        background-color: rgb(211, 211, 211);
+        padding: 50px;
+        margin-bottom: 10px;
+    
+    }
+}
+
+    
+ 
