@@ -6,7 +6,7 @@
 
 .firstGrpDivs {
     width: 33%;
-    border-style: solid;
+   
     padding: 50px;
     margin: 100px;
     text-align: center;
@@ -40,9 +40,12 @@ h1, h3 {
     margin-bottom: 70px;
 
 }
+p{
+    text-align: left;
+}
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .flexContainer{
         display: flex;
         flex-direction: column;
@@ -64,7 +67,6 @@ h1, h3 {
         margin-bottom: 0px;
     }
     
-    
     .description {
         width: 100%;
         margin: 0px;
@@ -73,6 +75,15 @@ h1, h3 {
         margin-bottom: 10px;
     
     }
+}
+@media screen and (max-width:1190px){
+    .firstGrpDivs {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        justify-content: center;
+    }
+
 }
 
     
