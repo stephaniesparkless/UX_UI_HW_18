@@ -47,47 +47,6 @@ p{
 
 
 
-@media screen and (max-width:800px){
-    .flexContainer{
-        display: flex;
-        flex-direction: column;
-        margin:0px;
-        padding: 0px;
-    }
-
-    .firstGrpDivs {
-        width: 100%;
-        padding: 20px;
-        margin: 20px;
-        justify-content: center;
-    }
-    .secondGrpDivs{
-        display: flex;
-        align-content: center; 
-        margin: 0px;
-        width: 100%;
-        margin-bottom: 0px;
-    }
-    
-    .description {
-        width: 100%;
-        margin: 0px;
-        background-color: rgb(211, 211, 211);
-        padding: 50px;
-        margin-bottom: 10px;
-    
-    }
-}
-@media screen and (max-width:1190px){
-    .firstGrpDivs {
-        width: 100%;
-        padding: 10px;
-        margin: 0px;
-        justify-content: center;
-    }
-
-}
-
     
  /* This removes any preset margins and padding. */
 
@@ -129,6 +88,7 @@ img#logo{
 
 .aboutlinks{
     display: inline-block;
+
 }
 
 nav ul li{
@@ -197,6 +157,67 @@ button{
     border: #e6d07f;
     padding: 10px;
 }
+
+.thirdCs{
+    display: none;
+}
+
+#firstB{
+    transition: background-color 0.5s ease;
+}
+
+#firstB:hover{
+    background-color: #d8b948;
+}
+#secondB{
+    transition: background-color 0.5s ease;
+}
+
+#secondB:hover{
+    background-color: #d8b948;
+}
+#thirdB{
+    transition: background-color 0.5s ease;
+}
+
+#thirdB:hover{
+    background-color: #d8b948;
+}
+
+#clickMe{
+    transition: background-color 0.5s ease;
+
+}
+#clickMe:hover{
+    color: #d8b948;
+}
+
+.flexfirst{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexfirst:hover{
+    transform: scale(1.05);
+}
+
+.flexsecond{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexsecond:hover{
+    transform: scale(1.05);
+}
+
+.flexthird{
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.flexthird:hover{
+    transform: scale(1.05);
+}
 /***************** Footer *****************/
 
 footer{
@@ -208,4 +229,49 @@ footer{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+
+/*******************Responsive Stuff*******************/
+
+@media screen and (max-width:800px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        padding: 0px;
+    }
+
+    .firstGrpDivs {
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        justify-content: center;
+    }
+    .secondGrpDivs{
+        display: flex;
+        align-content: center; 
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .description {
+        width: 100%;
+        margin: 0px;
+        background-color: rgb(211, 211, 211);
+        padding: 50px;
+        margin-bottom: 10px;
+    
+    }
+
+}
+@media screen and (max-width:1190px){
+    .firstGrpDivs {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        justify-content: center;
+    }
+
 }
